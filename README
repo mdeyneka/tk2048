@@ -1,0 +1,14 @@
+For run use command:
+python /path/to/tk2048.py
+
+If need run unit test, please change lines from:
+
+if __name__ == '__main__':
+#   unittest.main()  
+    root.mainloop()
+
+to
+
+if __name__ == '__main__':
+    unittest.main()  
+#   root.mainloop()
